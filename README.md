@@ -68,41 +68,6 @@ Potato-Disease-Prediction/
 
 ---
 
-## 📦 Installation and Usage
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-repo/potato-disease-prediction.git
-    cd potato-disease-prediction
-    ```
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Run the FastAPI server:
-    ```bash
-    uvicorn api.server:app --reload
-    ```
-4. Test using Postman by sending a POST request to `http://localhost:8000/predict`
-
----
-
-## ⚡ Future Improvements
-- Add more classes for classification.
-- Improve model accuracy using hyperparameter tuning.
-- Deploy the model to a cloud platform for broader accessibility.
-
----
-
-## 💡 Conclusion
-This project provided hands-on experience in building a machine learning pipeline from **model training** to **deployment**. Using FastAPI for serving predictions and Postman for API testing has enriched your practical knowledge. Keep exploring and learning!
-
----
-
-## 🤝 Acknowledgments
-- Dataset from [Public Dataset Source]
-- TensorFlow and Keras Documentation
-- FastAPI and Postman Guides
-
 ---
 ## 🖼️ Streamlit Web Application (Frontend)
 To make the prediction system more interactive and user-friendly, a **Streamlit-based web app** has been added. This app allows users to upload a potato leaf image and view the prediction results directly in the browser.
@@ -132,4 +97,20 @@ To make the prediction system more interactive and user-friendly, a **Streamlit-
     ```
 
 3. Open your browser and visit: `http://localhost:8501`
+   
+## ⚡ Future Improvements
+- Add more classes for classification.
+- Improve model accuracy using hyperparameter tuning.
+- Deploy the model to a cloud platform for broader accessibility.
 
+---
+
+## 💡 Conclusion
+This project provided hands-on experience in building a machine learning pipeline from **model training** to **deployment**. Using FastAPI for serving predictions and Postman for API testing has enriched your practical knowledge. Keep exploring and learning!
+
+---
+
+## 🤝 Acknowledgments
+- Dataset from [Public Dataset Source]
+- TensorFlow and Keras Documentation
+- FastAPI and Postman Guides
