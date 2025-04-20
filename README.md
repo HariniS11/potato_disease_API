@@ -104,7 +104,32 @@ This project provided hands-on experience in building a machine learning pipelin
 - FastAPI and Postman Guides
 
 ---
+## 🖼️ Streamlit Web Application (Frontend)
+To make the prediction system more interactive and user-friendly, a **Streamlit-based web app** has been added. This app allows users to upload a potato leaf image and view the prediction results directly in the browser.
 
-## 📬 Contact
-For any questions or suggestions, feel free to reach out via GitHub issues or email.
+### 🎯 Features
+- Simple and clean interface
+- Upload image via drag-and-drop or file selection
+- Sends the image to the FastAPI server in the background
+- Displays the predicted disease class and confidence score
+
+### ⚙️ How It Works
+- The **Streamlit app** acts as a frontend client.
+- When an image is uploaded and "Predict" is clicked:
+  - It sends a **POST request** to the FastAPI `/predict` endpoint.
+  - The FastAPI server processes the image and returns the prediction.
+  - Streamlit displays the result back to the user in real time.
+
+### 🚀 To Run the Streamlit App:
+1. Ensure the FastAPI server is already running:
+    ```bash
+    uvicorn api.server:app --reload
+    ```
+
+2. Then, launch the Streamlit app:
+    ```bash
+    streamlit run app.py
+    ```
+
+3. Open your browser and visit: `http://localhost:8501`
 
