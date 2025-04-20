@@ -24,16 +24,16 @@ This project focuses on building a **Potato Disease Prediction System** using a 
 ---
 
 ## 🚀 Project Structure
-```
 Potato-Disease-Prediction/
 ├── dataset/
 ├── model/
 │   ├── potato_disease_model.keras
 ├── api/
-│   ├── server.py
+│   ├── server.py              # FastAPI backend
+├── app.py                     # Streamlit frontend
 ├── requirements.txt
 ├── README.md
-```
+
 
 ---
 
